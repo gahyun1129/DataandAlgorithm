@@ -13,16 +13,31 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\list">
+      <UniqueIdentifier>{e5e7f235-8fe4-462b-b051-c4d8ebb571ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\stack">
+      <UniqueIdentifier>{ffb2ddc4-5dbc-4612-8ecb-17e6c8d76993}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SingleLinkedList.c">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="CircularLinkedList.c">
+      <Filter>소스 파일\list</Filter>
     </ClCompile>
     <ClCompile Include="DoubleLinkedList.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\list</Filter>
     </ClCompile>
-    <ClCompile Include="CircularLinkedList.c">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="SingleLinkedList.c">
+      <Filter>소스 파일\list</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayBaseStack.c">
+      <Filter>소스 파일\stack</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedListBaseStack.c">
+      <Filter>소스 파일\stack</Filter>
+    </ClCompile>
+    <ClCompile Include="StackCalculator.c">
+      <Filter>소스 파일\stack</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
