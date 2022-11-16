@@ -26,7 +26,6 @@ void LLS_DestroyNode(Node* _Node) {
 	free(_Node->Data);
 	free(_Node);
 }
-
 void LLS_CreateStack(LinkedListStack** Stack) {
 	*Stack = (LinkedListStack*)malloc(sizeof(LinkedListStack));
 	(*Stack)->List = NULL;
@@ -64,4 +63,7 @@ void LLS_DestroyStack(LinkedListStack* Stack) {
 	}
 
 	free(Stack);
+}
+int LLS_IsEmpty(LinkedListStack* Stack) {
+	return (Stack->List == NULL);
 }
