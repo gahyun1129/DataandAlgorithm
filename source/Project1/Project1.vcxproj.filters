@@ -19,6 +19,12 @@
     <Filter Include="소스 파일\stack">
       <UniqueIdentifier>{ffb2ddc4-5dbc-4612-8ecb-17e6c8d76993}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\queue">
+      <UniqueIdentifier>{2221c0cd-a5c9-427b-8776-b189422330ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\tree">
+      <UniqueIdentifier>{124e83c6-bcd6-49cd-80ab-915cdd21595c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CircularLinkedList.c">
@@ -38,6 +44,15 @@
     </ClCompile>
     <ClCompile Include="StackCalculator.c">
       <Filter>소스 파일\stack</Filter>
+    </ClCompile>
+    <ClCompile Include="CircularQueue.c">
+      <Filter>소스 파일\queue</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedQueue.c">
+      <Filter>소스 파일\queue</Filter>
+    </ClCompile>
+    <ClCompile Include="LCRSTree.c">
+      <Filter>소스 파일\tree</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
