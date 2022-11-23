@@ -54,5 +54,14 @@
     <ClCompile Include="LCRSTree.c">
       <Filter>소스 파일\tree</Filter>
     </ClCompile>
+    <ClCompile Include="SBTree.c">
+      <Filter>소스 파일\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="ETree.c">
+      <Filter>소스 파일\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="DisjoinTree.c">
+      <Filter>소스 파일\tree</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
