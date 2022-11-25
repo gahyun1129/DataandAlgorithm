@@ -42,5 +42,8 @@
     <ClCompile Include="BinarySearchTree.c">
       <Filter>소스 파일\Search</Filter>
     </ClCompile>
+    <ClCompile Include="RedBlackTree.c">
+      <Filter>소스 파일\Search</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
