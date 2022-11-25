@@ -16,10 +16,31 @@
     <Filter Include="소스 파일\Sort">
       <UniqueIdentifier>{e8f242dc-5a0f-4bbd-9b13-b3dd79d30aff}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Search">
+      <UniqueIdentifier>{349809d6-4153-4b3e-96e5-f372217593b1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BubbleSort.c">
       <Filter>소스 파일\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertionSort.c">
+      <Filter>소스 파일\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickSort.c">
+      <Filter>소스 파일\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="qsort.c">
+      <Filter>소스 파일\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="SequentialSearch.c">
+      <Filter>소스 파일\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="BinarySearch.c">
+      <Filter>소스 파일\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="BinarySearchTree.c">
+      <Filter>소스 파일\Search</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
