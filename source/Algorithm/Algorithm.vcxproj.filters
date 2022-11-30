@@ -19,6 +19,12 @@
     <Filter Include="소스 파일\Search">
       <UniqueIdentifier>{349809d6-4153-4b3e-96e5-f372217593b1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Heap">
+      <UniqueIdentifier>{e9617783-6658-447e-8909-7b6be20dc5f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Hashtable">
+      <UniqueIdentifier>{ff40a71d-4573-4889-9b16-57e4bad45fe8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BubbleSort.c">
@@ -44,6 +50,18 @@
     </ClCompile>
     <ClCompile Include="RedBlackTree.c">
       <Filter>소스 파일\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="Heap.c">
+      <Filter>소스 파일\Heap</Filter>
+    </ClCompile>
+    <ClCompile Include="simpleHashTable.c">
+      <Filter>소스 파일\Hashtable</Filter>
+    </ClCompile>
+    <ClCompile Include="ChainedHashTable.c">
+      <Filter>소스 파일\Hashtable</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenAddressingHashTable.c">
+      <Filter>소스 파일\Hashtable</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
