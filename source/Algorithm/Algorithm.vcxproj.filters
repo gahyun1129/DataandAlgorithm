@@ -84,6 +84,9 @@
     <ClCompile Include="TopologicalSort.c">
       <Filter>소스 파일\Graph</Filter>
     </ClCompile>
+    <ClCompile Include="prim.c">
+      <Filter>소스 파일\Graph</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkedQueue.h">
