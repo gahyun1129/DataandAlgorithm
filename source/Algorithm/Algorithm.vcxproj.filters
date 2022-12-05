@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\Hashtable">
       <UniqueIdentifier>{ff40a71d-4573-4889-9b16-57e4bad45fe8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Graph">
+      <UniqueIdentifier>{421c3ded-ba4f-469f-b529-ec38f6b0f7cc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BubbleSort.c">
@@ -63,5 +66,31 @@
     <ClCompile Include="OpenAddressingHashTable.c">
       <Filter>소스 파일\Hashtable</Filter>
     </ClCompile>
+    <ClCompile Include="Graph.h">
+      <Filter>소스 파일\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.c">
+      <Filter>소스 파일\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedQueue.c">
+      <Filter>소스 파일\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>소스 파일\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="graphTraversal.c">
+      <Filter>소스 파일\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="TopologicalSort.c">
+      <Filter>소스 파일\Graph</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LinkedQueue.h">
+      <Filter>소스 파일\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="graphTraversal.h">
+      <Filter>소스 파일\Graph</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
