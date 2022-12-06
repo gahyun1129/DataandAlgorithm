@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\Graph">
       <UniqueIdentifier>{421c3ded-ba4f-469f-b529-ec38f6b0f7cc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\StringSearch">
+      <UniqueIdentifier>{b5d6694e-ce0b-4eed-92b7-4476116f93f2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BubbleSort.c">
@@ -89,6 +92,21 @@
     </ClCompile>
     <ClCompile Include="Kruskal.c">
       <Filter>소스 파일\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortestPath.c">
+      <Filter>소스 파일\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="bruteForce.c">
+      <Filter>소스 파일\StringSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="KarpRabin.c">
+      <Filter>소스 파일\StringSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="KnuthMorrisPratt.c">
+      <Filter>소스 파일\StringSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="BoyreMoore.c">
+      <Filter>소스 파일\StringSearch</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
