@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\StringSearch">
       <UniqueIdentifier>{b5d6694e-ce0b-4eed-92b7-4476116f93f2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\DivideConquer">
+      <UniqueIdentifier>{fd1786e7-477e-4657-ac12-5a101d02fcd2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BubbleSort.c">
@@ -107,6 +110,9 @@
     </ClCompile>
     <ClCompile Include="BoyreMoore.c">
       <Filter>소스 파일\StringSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeSort.c">
+      <Filter>소스 파일\DivideConquer</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
