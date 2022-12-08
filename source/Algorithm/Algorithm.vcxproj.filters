@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\DivideConquer">
       <UniqueIdentifier>{fd1786e7-477e-4657-ac12-5a101d02fcd2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\DynamicProgramming">
+      <UniqueIdentifier>{dcff7716-5fd8-44c5-9bda-fcccbd11f003}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BubbleSort.c">
@@ -113,6 +116,18 @@
     </ClCompile>
     <ClCompile Include="MergeSort.c">
       <Filter>소스 파일\DivideConquer</Filter>
+    </ClCompile>
+    <ClCompile Include="FastExponentiation.c">
+      <Filter>소스 파일\DivideConquer</Filter>
+    </ClCompile>
+    <ClCompile Include="Fibonacci.c">
+      <Filter>소스 파일\DivideConquer</Filter>
+    </ClCompile>
+    <ClCompile Include="FibonacciDP.c">
+      <Filter>소스 파일\DynamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="LCS.c">
+      <Filter>소스 파일\DynamicProgramming</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
