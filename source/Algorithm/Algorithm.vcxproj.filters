@@ -37,6 +37,12 @@
     <Filter Include="소스 파일\DynamicProgramming">
       <UniqueIdentifier>{dcff7716-5fd8-44c5-9bda-fcccbd11f003}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Greedy">
+      <UniqueIdentifier>{ca1ba379-4c46-4968-badb-f0384fdffba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BackTracking">
+      <UniqueIdentifier>{7958ad27-ee79-4e4e-b8e2-2df173b7fd76}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BubbleSort.c">
@@ -128,6 +134,15 @@
     </ClCompile>
     <ClCompile Include="LCS.c">
       <Filter>소스 파일\DynamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="MakingChange.c">
+      <Filter>소스 파일\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Huffman.c">
+      <Filter>소스 파일\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="NQueens.c">
+      <Filter>소스 파일\BackTracking</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
