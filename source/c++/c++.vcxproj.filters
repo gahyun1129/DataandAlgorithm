@@ -13,22 +13,28 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\chapter1">
+    <Filter Include="소스 파일\chapter1,2">
       <UniqueIdentifier>{8c5184f0-eea9-44d3-af5e-741c5eedd456}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="printformat.cpp">
-      <Filter>소스 파일\chapter1</Filter>
+      <Filter>소스 파일\chapter1,2</Filter>
     </ClCompile>
     <ClCompile Include="stirng01.cpp">
-      <Filter>소스 파일\chapter1</Filter>
+      <Filter>소스 파일\chapter1,2</Filter>
     </ClCompile>
     <ClCompile Include="variables.cpp">
-      <Filter>소스 파일\chapter1</Filter>
+      <Filter>소스 파일\chapter1,2</Filter>
     </ClCompile>
     <ClCompile Include="structType.cpp">
-      <Filter>소스 파일\chapter1</Filter>
+      <Filter>소스 파일\chapter1,2</Filter>
+    </ClCompile>
+    <ClCompile Include="enumTest.cpp">
+      <Filter>소스 파일\chapter1,2</Filter>
+    </ClCompile>
+    <ClCompile Include="initialize.cpp">
+      <Filter>소스 파일\chapter1,2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
